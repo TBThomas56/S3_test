@@ -1,0 +1,14 @@
+apiVersion: v2
+name: s3 
+description: A Chart to test S3 Buckets
+type: application
+
+version: 0.1.0
+
+dependencies:
+  - name: localstack
+    repository: https://localstack.github.io/helm-charts
+    version: 0.6.20
+  - name: common 
+    version: 2.23.0
+    repository: oci://docker.io/bitnamicharts
